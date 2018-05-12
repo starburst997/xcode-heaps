@@ -1,0 +1,13 @@
+# class paths
+-cp src
+
+# entry point
+-main Main
+
+# libraries
+-lib heaps
+#-lib hldx
+-lib hlsdl
+
+# output
+-hl ../hashlink/src/_main.c
