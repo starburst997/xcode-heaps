@@ -11,3 +11,6 @@
 
 # output
 -hl ../hashlink/src/_main.c
+
+# Still haven't figured out all 3rd party libraries...
+-dce full
