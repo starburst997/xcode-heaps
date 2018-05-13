@@ -42,5 +42,6 @@ Some 3rd party libraries need to be download and available to the xcode project.
 
 # TODO
 
+- [ ] Bitcode disabled because of turbojpeg pre-compiled library
 - [ ] Compile all Heaps samples
 - [ ] Add a command line tool to build hlc, the xcode project and run on device without opening XCode.
