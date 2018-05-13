@@ -319,7 +319,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../hashlink/src",
+					"$(SRCROOT)/../../submodules/hashlink/src",
 					/usr/local/include,
 					"/usr/local/opt/openal-soft/include",
 					"/usr/local/opt/libjpeg-turbo/include",
@@ -332,7 +332,7 @@
 					/usr/local/Cellar/libvorbis/1.3.6/lib,
 					/usr/local/Cellar/libogg/1.3.3/lib,
 					/usr/local/Cellar/mbedtls/2.9.0/lib,
-					"$(SRCROOT)/../../../hashlink",
+					"$(SRCROOT)/../../submodules/hashlink",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -388,7 +388,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../hashlink/src",
+					"$(SRCROOT)/../../submodules/hashlink/src",
 					/usr/local/include,
 					"/usr/local/opt/openal-soft/include",
 					"/usr/local/opt/libjpeg-turbo/include",
@@ -401,7 +401,7 @@
 					/usr/local/Cellar/libvorbis/1.3.6/lib,
 					/usr/local/Cellar/libogg/1.3.3/lib,
 					/usr/local/Cellar/mbedtls/2.9.0/lib,
-					"$(SRCROOT)/../../../hashlink",
+					"$(SRCROOT)/../../submodules/hashlink",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
