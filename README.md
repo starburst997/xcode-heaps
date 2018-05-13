@@ -27,6 +27,8 @@ Then compile to hlc using `haxe build-hlc.hxml`.
 
 Open the XCode project at `xcode/iOS/heaps-iOS.xcodeproj`, press Build.
 
+To quickly generate a heaps sample, call `./sample.sh base2D`, then open the XCode project and hit "Build"!
+
 # 3rd Party
 
 Some 3rd party libraries need to be download and available to the xcode project.
