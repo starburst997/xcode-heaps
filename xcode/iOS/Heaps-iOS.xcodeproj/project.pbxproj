@@ -21,6 +21,7 @@
 		6D28A9F220A8B39700C7E67F /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28A9F120A8B39700C7E67F /* Ogg.framework */; };
 		6D28A9F420A8B3A100C7E67F /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D28A9F320A8B3A100C7E67F /* Vorbis.framework */; };
 		6D4FB3C020A8CEEF00364EF5 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D685CE320A8CD9B00917B6C /* libSDL2.a */; };
+		6D4FB3CA20A8D39D00364EF5 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4FB3C720A8D38D00364EF5 /* libpng.a */; };
 		6D67CEC220A8A93900D3F52D /* logo_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D90BD7120A89BEC001E63C4 /* logo_1024.png */; };
 		6D67CEC320A8A93B00D3F52D /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D90BD6B20A89BDF001E63C4 /* pattern.png */; };
 		6D90BD7320A89DDD001E63C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D90BD7220A89DDD001E63C4 /* Images.xcassets */; };
@@ -59,6 +60,20 @@
 			remoteGlobalIDString = FD6526620DE8FCCB002AD96B;
 			remoteInfo = "libSDL-iOS";
 		};
+		6D4FB3C620A8D38D00364EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA6392DC1CA5903D004C7CE2;
+			remoteInfo = libpng;
+		};
+		6D4FB3C820A8D39700364EF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6392DB1CA5903D004C7CE2;
+			remoteInfo = libpng;
+		};
 		6D685CE220A8CD9B00917B6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD1B48920E313154007AB34E /* SDL.xcodeproj */;
@@ -92,6 +107,7 @@
 		6D28A91720A8ADCC00C7E67F /* _main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = _main.c; path = ../../submodules/hashlink/src/_main.c; sourceTree = "<group>"; };
 		6D28A9F120A8B39700C7E67F /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = ../../submodules/IDZPrecompiledOgg/Ogg.framework; sourceTree = "<group>"; };
 		6D28A9F320A8B3A100C7E67F /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = ../../submodules/IDZPrecompiledVorbis/Vorbis.framework; sourceTree = "<group>"; };
+		6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = "../../submodules/libpng-for-iOS/libpng.xcodeproj"; sourceTree = "<group>"; };
 		6D90BD6B20A89BDF001E63C4 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = images/pattern.png; sourceTree = "<group>"; };
 		6D90BD7120A89BEC001E63C4 /* logo_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_1024.png; path = images/logo_1024.png; sourceTree = "<group>"; };
 		6D90BD7220A89DDD001E63C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = images/Images.xcassets; sourceTree = "<group>"; };
@@ -113,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4FB3CA20A8D39D00364EF5 /* libpng.a in Frameworks */,
 				6D4FB3C020A8CEEF00364EF5 /* libSDL2.a in Frameworks */,
 				6D1E7EE220A75FDA00C2FB60 /* libhl.a in Frameworks */,
 				6D1E7EED20A76C5100C2FB60 /* libz.tbd in Frameworks */,
@@ -148,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				FD1B48920E313154007AB34E /* SDL.xcodeproj */,
+				6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */,
 				6D1E7ECF20A75FC600C2FB60 /* libhl-iOS.xcodeproj */,
 				FA86C0361D9765BA009CB637 /* iOS Launch Screen.storyboard */,
 				6D28A8FD20A8AD3600C7E67F /* Source */,
@@ -221,6 +239,14 @@
 			name = Libs;
 			sourceTree = "<group>";
 		};
+		6D4FB3C320A8D38D00364EF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D4FB3C720A8D38D00364EF5 /* libpng.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6D685CDB20A8CD9B00917B6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +270,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6D4FB3C920A8D39700364EF5 /* PBXTargetDependency */,
 				6D4FB3BA20A8CEE900364EF5 /* PBXTargetDependency */,
 				6D1E7EDC20A75FD500C2FB60 /* PBXTargetDependency */,
 			);
@@ -284,6 +311,10 @@
 					ProjectRef = 6D1E7ECF20A75FC600C2FB60 /* libhl-iOS.xcodeproj */;
 				},
 				{
+					ProductGroup = 6D4FB3C320A8D38D00364EF5 /* Products */;
+					ProjectRef = 6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */;
+				},
+				{
 					ProductGroup = 6D685CDB20A8CD9B00917B6C /* Products */;
 					ProjectRef = FD1B48920E313154007AB34E /* SDL.xcodeproj */;
 				},
@@ -301,6 +332,13 @@
 			fileType = archive.ar;
 			path = libhl.a;
 			remoteRef = 6D1E7ED320A75FC600C2FB60 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D4FB3C720A8D38D00364EF5 /* libpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libpng.a;
+			remoteRef = 6D4FB3C620A8D38D00364EF5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		6D685CE320A8CD9B00917B6C /* libSDL2.a */ = {
@@ -361,6 +399,11 @@
 			name = "libSDL-iOS";
 			targetProxy = 6D4FB3B920A8CEE900364EF5 /* PBXContainerItemProxy */;
 		};
+		6D4FB3C920A8D39700364EF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libpng;
+			targetProxy = 6D4FB3C820A8D39700364EF5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -399,6 +442,7 @@
 					"$(PROJECT_DIR)/../../submodules/IDZPrecompiledVorbis",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "PNG_ARM_NEON_OPT=0";
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../submodules/SDL2/include",
 					"$(PROJECT_DIR)/../../submodules/hashlink/src",
@@ -425,6 +469,7 @@
 					"$(PROJECT_DIR)/../../submodules/IDZPrecompiledOgg",
 					"$(PROJECT_DIR)/../../submodules/IDZPrecompiledVorbis",
 				);
+				GCC_PREPROCESSOR_DEFINITIONS = "PNG_ARM_NEON_OPT=0";
 				HEADER_SEARCH_PATHS = (
 					"$(PROJECT_DIR)/../../submodules/SDL2/include",
 					"$(PROJECT_DIR)/../../submodules/hashlink/src",

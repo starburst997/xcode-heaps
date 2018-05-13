@@ -13,3 +13,6 @@
 [submodule "submodules/IDZPrecompiledVorbis"]
 	path = submodules/IDZPrecompiledVorbis
 	url = git@github.com:iosdevzone/IDZPrecompiledVorbis.git
+[submodule "submodules/libpng-for-iOS"]
+	path = submodules/libpng-for-iOS
+	url = git@github.com:starburst997/libpng-for-iOS.git
