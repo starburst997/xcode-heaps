@@ -110,8 +110,6 @@
 		6D28A9F120A8B39700C7E67F /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = ../../submodules/IDZPrecompiledOgg/Ogg.framework; sourceTree = "<group>"; };
 		6D28A9F320A8B3A100C7E67F /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = ../../submodules/IDZPrecompiledVorbis/Vorbis.framework; sourceTree = "<group>"; };
 		6D4FB3C220A8D38D00364EF5 /* libpng.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpng.xcodeproj; path = "../../submodules/libpng-for-iOS/libpng.xcodeproj"; sourceTree = "<group>"; };
-		6D4FB3CB20A8D7B300364EF5 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../submodules/turbojpeg-ios/libjpeg.a"; sourceTree = "<group>"; };
-		6D4FB3CC20A8D7B300364EF5 /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = "../../submodules/turbojpeg-ios/libturbojpeg.a"; sourceTree = "<group>"; };
 		6D4FB3D020A8D92700364EF5 /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libturbojpeg.a; path = "../../submodules/turbojpeg/dependencies-lib/lib/libturbojpeg.a"; sourceTree = "<group>"; };
 		6D4FB3D120A8D92700364EF5 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjpeg.a; path = "../../submodules/turbojpeg/dependencies-lib/lib/libjpeg.a"; sourceTree = "<group>"; };
 		6D90BD6B20A89BDF001E63C4 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = images/pattern.png; sourceTree = "<group>"; };
@@ -198,9 +196,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D4FB3CB20A8D7B300364EF5 /* libjpeg.a */,
 				6D4FB3D120A8D92700364EF5 /* libjpeg.a */,
-				6D4FB3CC20A8D7B300364EF5 /* libturbojpeg.a */,
 				6D4FB3D020A8D92700364EF5 /* libturbojpeg.a */,
 				6D1E7EEC20A76C5100C2FB60 /* libz.tbd */,
 				6D28A9F320A8B3A100C7E67F /* Vorbis.framework */,
