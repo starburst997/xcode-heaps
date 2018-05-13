@@ -16,9 +16,6 @@
 [submodule "submodules/libpng-for-iOS"]
 	path = submodules/libpng-for-iOS
 	url = git@github.com:starburst997/libpng-for-iOS.git
-[submodule "submodules/turbojpeg-ios"]
-	path = submodules/turbojpeg-ios
-	url = git@github.com:starburst997/turbojpeg-ios.git
 [submodule "submodules/turbojpeg"]
 	path = submodules/turbojpeg
 	url = git@github.com:starburst997/turbojpeg.git
