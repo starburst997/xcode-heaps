@@ -40,5 +40,5 @@ Some 3rd party libraries need to be download and available to the xcode project.
 
 # TODO
 
-- [ ] Compile all Heaps samples
-- [ ] Add a command line tool to build hlc, the xcode project and run on device without opening XCode.
+- [ ] Compile all Heaps samples
+- [ ] Add a command line tool to build hlc, the xcode project and run on device without opening XCode.
