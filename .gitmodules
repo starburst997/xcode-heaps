@@ -1,0 +1,15 @@
+[submodule "submodules/SDL2"]
+	path = submodules/SDL2
+	url = git@github.com:spurious/SDL-mirror.git
+[submodule "submodules/hashlink"]
+	path = submodules/hashlink
+	url = git@github.com:starburst997/hashlink.git
+[submodule "submodules/heaps"]
+	path = submodules/heaps
+	url = git@github.com:HeapsIO/heaps.git
+[submodule "submodules/IDZPrecompiledOgg"]
+	path = submodules/IDZPrecompiledOgg
+	url = git@github.com:iosdevzone/IDZPrecompiledOgg.git
+[submodule "submodules/IDZPrecompiledVorbis"]
+	path = submodules/IDZPrecompiledVorbis
+	url = git@github.com:iosdevzone/IDZPrecompiledVorbis.git

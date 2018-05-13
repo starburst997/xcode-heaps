@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FD15FCB10E086866003BDF25"
-               BuildableName = "Heaps Test.app"
+               BuildableName = "Heaps.app"
                BlueprintName = "Heaps"
-               ReferencedContainer = "container:Heaps-iOS.xcodeproj">
+               ReferencedContainer = "container:heaps-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD15FCB10E086866003BDF25"
-            BuildableName = "Heaps Test.app"
+            BuildableName = "Heaps.app"
             BlueprintName = "Heaps"
-            ReferencedContainer = "container:Heaps-iOS.xcodeproj">
+            ReferencedContainer = "container:heaps-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD15FCB10E086866003BDF25"
-            BuildableName = "Heaps Test.app"
+            BuildableName = "Heaps.app"
             BlueprintName = "Heaps"
-            ReferencedContainer = "container:Heaps-iOS.xcodeproj">
+            ReferencedContainer = "container:heaps-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FD15FCB10E086866003BDF25"
-            BuildableName = "Heaps Test.app"
+            BuildableName = "Heaps.app"
             BlueprintName = "Heaps"
-            ReferencedContainer = "container:Heaps-iOS.xcodeproj">
+            ReferencedContainer = "container:heaps-iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

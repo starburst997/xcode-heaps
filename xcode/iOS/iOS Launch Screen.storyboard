@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,15 +22,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Default2.png" translatesAutoresizingMaskIntoConstraints="NO" id="VeL-6u-rS3">
-                                <rect key="frame" x="0.0" y="1" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern.png" translatesAutoresizingMaskIntoConstraints="NO" id="VeL-6u-rS3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" image="logo_1024.png" translatesAutoresizingMaskIntoConstraints="NO" id="ow3-Ff-XkM">
+                                <rect key="frame" x="20" y="272" width="335" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ow3-Ff-XkM" secondAttribute="height" multiplier="128:47" id="GiN-N9-ns3"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ow3-Ff-XkM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="3p6-k7-ppT"/>
+                            <constraint firstItem="ow3-Ff-XkM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4EO-EB-kCH"/>
+                            <constraint firstItem="VeL-6u-rS3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="9i6-Ur-8N4"/>
                             <constraint firstItem="VeL-6u-rS3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="C5X-Vg-tvO"/>
-                            <constraint firstAttribute="trailing" secondItem="VeL-6u-rS3" secondAttribute="trailing" id="X4i-1U-3JE"/>
-                            <constraint firstItem="VeL-6u-rS3" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="dSu-2l-DcF"/>
+                            <constraint firstAttribute="trailing" secondItem="ow3-Ff-XkM" secondAttribute="trailing" constant="20" id="GNO-Fh-wDm"/>
+                            <constraint firstItem="ow3-Ff-XkM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NGL-IE-8nr"/>
+                            <constraint firstItem="VeL-6u-rS3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o4Q-jc-clz"/>
                             <constraint firstItem="VeL-6u-rS3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="xKC-uj-bxE"/>
                         </constraints>
                     </view>
@@ -40,6 +51,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Default2.png" width="320" height="480"/>
+        <image name="logo_1024.png" width="1024" height="376"/>
+        <image name="pattern.png" width="1920" height="1080"/>
     </resources>
 </document>
