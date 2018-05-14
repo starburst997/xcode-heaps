@@ -34,5 +34,6 @@ To quickly generate a heaps sample, call `./sample.sh base2D`, then open the XCo
 - [ ] Bitcode disabled because of turbojpeg pre-compiled library
 - [ ] .app for mac instead of executable
 - [ ] Setup fastlane
+- [ ] 3D samples looks glitchy
 - [x] Compile all Heaps samples
 - [ ] Add a command line tool to build hlc, the xcode project and run on device without opening XCode.
