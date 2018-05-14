@@ -304,7 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = ZYMM64BHCM;
+				DEVELOPMENT_TEAM = 6DLE5P4U52;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -325,13 +325,13 @@
 					"/usr/local/opt/libjpeg-turbo/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"/usr/local/Cellar/jpeg-turbo/1.5.3/lib",
-					/usr/local/Cellar/libpng/1.6.34/lib,
-					"/usr/local/Cellar/openal-soft/1.18.2/lib",
-					/usr/local/Cellar/sdl2/2.0.8/lib,
-					/usr/local/Cellar/libvorbis/1.3.6/lib,
-					/usr/local/Cellar/libogg/1.3.3/lib,
-					/usr/local/Cellar/mbedtls/2.9.0/lib,
+					"/usr/local/opt/jpeg-turbo/lib",
+					/usr/local/opt/libpng/lib,
+					"/usr/local/opt/openal-soft/lib",
+					/usr/local/opt/sdl2/lib,
+					/usr/local/opt/libvorbis/lib,
+					/usr/local/opt/libogg/lib,
+					/usr/local/opt/mbedtls/lib,
 					"$(SRCROOT)/../../submodules/hashlink",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -375,7 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ZYMM64BHCM;
+				DEVELOPMENT_TEAM = 6DLE5P4U52;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -394,13 +394,13 @@
 					"/usr/local/opt/libjpeg-turbo/include",
 				);
 				LIBRARY_SEARCH_PATHS = (
-					"/usr/local/Cellar/jpeg-turbo/1.5.3/lib",
-					/usr/local/Cellar/libpng/1.6.34/lib,
-					"/usr/local/Cellar/openal-soft/1.18.2/lib",
-					/usr/local/Cellar/sdl2/2.0.8/lib,
-					/usr/local/Cellar/libvorbis/1.3.6/lib,
-					/usr/local/Cellar/libogg/1.3.3/lib,
-					/usr/local/Cellar/mbedtls/2.9.0/lib,
+					"/usr/local/opt/jpeg-turbo/lib",
+					/usr/local/opt/libpng/lib,
+					"/usr/local/opt/openal-soft/lib",
+					/usr/local/opt/sdl2/lib,
+					/usr/local/opt/libvorbis/lib,
+					/usr/local/opt/libogg/lib,
+					/usr/local/opt/mbedtls/lib,
 					"$(SRCROOT)/../../submodules/hashlink",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
