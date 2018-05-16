@@ -19,3 +19,6 @@
 [submodule "submodules/turbojpeg"]
 	path = submodules/turbojpeg
 	url = git@github.com:starburst997/turbojpeg.git
+[submodule "submodules/hxbit"]
+	path = submodules/hxbit
+	url = git@github.com:ncannasse/hxbit.git

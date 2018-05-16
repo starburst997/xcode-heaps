@@ -296,7 +296,7 @@
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					FD15FCB10E086866003BDF25 = {
-						DevelopmentTeam = P7K4SUSDX6;
+						DevelopmentTeam = 6DLE5P4U52;
 					};
 				};
 			};
@@ -443,7 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7K4SUSDX6;
+				DEVELOPMENT_TEAM = 6DLE5P4U52;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,7 +463,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../submodules/turbojpeg/dependencies-lib/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.failsafegames.heaps-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.failsafegames.heaps-test2";
 				PRODUCT_NAME = Heaps;
 				SDKROOT = iphoneos;
 			};
@@ -473,7 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = P7K4SUSDX6;
+				DEVELOPMENT_TEAM = 6DLE5P4U52;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +492,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/../../submodules/turbojpeg/dependencies-lib/lib",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.failsafegames.heaps-test";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.failsafegames.heaps-test2";
 				PRODUCT_NAME = Heaps;
 				SDKROOT = iphoneos;
 			};
